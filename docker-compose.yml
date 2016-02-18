@@ -1,0 +1,8 @@
+archiva:
+  image: shutty/archiva:2.2.0
+  volumes:
+    - ./conf:/archiva/conf
+    - ./data:/archiva/data
+    - ./repositories:/archiva/repositories
+  restart: unless-stopped
+  log_driver: syslog

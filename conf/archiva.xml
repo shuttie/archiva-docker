@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><configuration>
 <version>2</version>
 <repositoryScanning>
+
+
+
+
+
+
 <fileTypes>
 <fileType>
 <id>artifacts</id>
@@ -99,6 +105,12 @@
 <maxElementsInMemory>1000</maxElementsInMemory>
 <maxElementsOnDisk>0</maxElementsOnDisk>
 </usersCacheConfiguration>
+
+
+
+
+
+
 <userManagerImpls>
 <userManagerImpl>jdo</userManagerImpl>
 </userManagerImpls>
@@ -224,6 +236,7 @@
 <maxElementsOnDisk>0</maxElementsOnDisk>
 </urlFailureCacheConfiguration>
 </archivaRuntimeConfiguration>
+
 <managedRepositories>
 <managedRepository>
 <location>./repositories/internal</location>
