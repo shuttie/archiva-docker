@@ -6,3 +6,5 @@ archiva:
     - ./repositories:/archiva/repositories
   restart: unless-stopped
   log_driver: syslog
+  ports:
+    - "8080:8080"
